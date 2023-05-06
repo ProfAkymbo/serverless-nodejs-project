@@ -5,7 +5,7 @@ provider:
   name: aws # Use Amazon Web Services as the provider
   runtime: nodejs14.x # Use Node.js version 14.x
   stage: dev # Deploy to the "dev" stage
-  region: eu-central-1 # Deploy to the EU Central (Frankfurt) region
+  region: eu-east-1 # Deploy to this region
 
 # Functions definition
 functions:
