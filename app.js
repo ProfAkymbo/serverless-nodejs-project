@@ -11,7 +11,7 @@ const app = express();
 // Create a GET endpoint for the root route
 app.get('/', async (req, res, next) => {
   // Send a response with status 200 and message "Hello World!"
-  res.status(200).send('Hello World From Harness!');
+  res.status(200).send('Hello World! From profAkymbo!');
 });
 
 // Export the express app as a serverless function named "server"
